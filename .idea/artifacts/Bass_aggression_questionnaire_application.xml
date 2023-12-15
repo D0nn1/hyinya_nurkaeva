@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Bass_aggression_questionnaire_application">
+    <output-path>$PROJECT_DIR$/out/artifacts/Bass_aggression_questionnaire_application</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="com.example.bass_aggression_questionnaire_application.MainApplication" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Bass_aggression_questionnaire_application.jar">
+        <element id="module-output" name="Bass_aggression_questionnaire_application" />
+      </element>
+    </root>
+  </artifact>
+</component>

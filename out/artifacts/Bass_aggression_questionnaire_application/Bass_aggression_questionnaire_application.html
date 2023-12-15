@@ -1,0 +1,43 @@
+<html><head>
+  <SCRIPT src="http://java.com/js/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'Bass_aggression_questionnaire_application.jnlp'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedBass_aggression_questionnaire_application_id() {
+        dtjava.embed(
+            {
+                id : 'Bass_aggression_questionnaire_application_id',
+                url : 'Bass_aggression_questionnaire_application.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '600',
+                height : '400'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedBass_aggression_questionnaire_application_id);
+</script>
+
+</head><body>
+<h2>Test page for <b>Bass_aggression_questionnaire_application</b></h2>
+  <b>Webstart:</b> <a href='Bass_aggression_questionnaire_application.jnlp' onclick="return launchApplication('Bass_aggression_questionnaire_application.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>

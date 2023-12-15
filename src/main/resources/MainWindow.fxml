@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bass_aggression_questionnaire_application.controller.MainWindowController">
+    <children>
+        <!-- Background Rectangle -->
+        <Rectangle fill="#ECEFF1" height="400.0" width="500.0" />
+
+        <!-- Title Label -->
+        <Label layoutX="30.0" layoutY="30.0" text="Пройдите тест">
+            <font>
+                <Font name="Oswald Regular" size="30.0" />
+            </font>
+        </Label>
+
+        <!-- Data Input Section -->
+        <Label layoutX="30.0" layoutY="126.0" text="Введите ваши данные:">
+            <font>
+                <Font name="Oswald Regular" size="18.0" />
+            </font>
+        </Label>
+
+        <TextField fx:id="firstNameField" layoutX="30.0" layoutY="167.0" prefHeight="40" prefWidth="200" promptText="Имя">
+            <font>
+                <Font name="Oswald ExtraLight" size="15.0" />
+            </font>
+        </TextField>
+
+        <TextField fx:id="lastNameField" layoutX="30.0" layoutY="220.0" prefHeight="40" prefWidth="200" promptText="Фамилия">
+            <font>
+                <Font name="Oswald ExtraLight" size="15.0" />
+            </font>
+        </TextField>
+
+        <Button layoutX="30.0" layoutY="330.0" onAction="#startTest" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" text="Начать тест">
+            <font>
+                <Font name="Oswald Regular" size="18.0" />
+            </font>
+        </Button>
+
+        <!-- Description Label -->
+        <Label layoutX="250.0" layoutY="42.0" prefHeight="330.0" prefWidth="220.0" text="Отметьте «да», если вы согласны с утверждением, и «нет» - если не согласны. Старайтесь долго над вопросами не раздумывать." textAlignment="LEFT" wrapText="true">
+            <font>
+                <Font name="Oswald Light" size="22.0" />
+            </font>
+        </Label>
+
+    </children>
+</AnchorPane>
